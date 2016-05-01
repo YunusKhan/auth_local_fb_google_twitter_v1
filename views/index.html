@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Misfit Toys</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signin.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form-signin" method="GET" action="/email_login">
+            <h3 class="form-signin-heading"><center>Welcome to the Land of <br><center>Misfit Toys</h3>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" >Login via Email</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <form class="form-signin" method="GET" action="/facebook_login">
+            <button class="btn btn-lg btn-primary btn-block" type="submit" >Facebook</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <form class="form-signin" method="GET" action="/google_login">
+            <button class="btn btn-lg btn-primary btn-block" type="submit" >Google +</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <form class="form-signin" method="GET" action="/twitter_login">
+            <button class="btn btn-lg btn-primary btn-block" type="submit" >Twitter</button>
+        </form>
+    </div>
+
+   <div class="container">
+        <form class="form-signin" method="GET" action="/other_login">
+            <button class="btn btn-lg btn-primary btn-block" type="submit" >Other Sites Login</button>
+        </form>
+    </div>
+
+    <div>
+        <form class="form-signin" method="POST">
+            <p><center><b>Need an account? <a href="/signup">Sign up Here !</a></p>
+            <p><a href="/home">Home</a></p>
+            <p><a href="/help">Help</a></p>
+        </form>
+    </div>
+
+
+</body>
+</html>

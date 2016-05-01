@@ -1,0 +1,33 @@
+{
+  "name": "test app",
+  "description": "app for testing login features",
+  "main": "server.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "login"
+  ],
+  "authors": [
+    "khany yunus"
+  ],
+  "license": "MIT",
+  "homepage": "home.htm",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "angular": "^1.5.5",
+    "ionic": "^1.3.0",
+    "mustache.js": "mustache#^2.2.1"
+  },
+  "resolutions": {
+    "angular": "^1.5.5"
+  }
+}
